@@ -2,9 +2,7 @@ package day36_Inheritence.encapsulation;
 
 public class Student {
 
-    public static void main(String[] args) {
 
-    }
 
     private String name;
     private int age;
@@ -24,7 +22,7 @@ public class Student {
     }
 
     public void setAge(int age) {
-        if (age <= 0 || age > 150) {
+        if (age < 5 || age > 90) {
             return;
         }
         this.age = age;
@@ -46,6 +44,9 @@ public class Student {
     }
 
     public void setGrade(char grade) {
+        if (!(grade == 'A' || grade == 'B' || grade == 'C' || grade == 'D' || grade == 'F')){
+            return;
+        }
         this.grade = grade;
     }
 
@@ -58,7 +59,7 @@ public class Student {
     }
 
     public Student(String name, int age, char gender, char grade, String schoolName) {
-        setName(name);
+        setName(name); // when I call my setters it execute my conditions too
         setAge(age);
         setGender(gender);
         setGrade(grade);
@@ -70,3 +71,5 @@ public class Student {
         return "Student{" + "name='" + name + '\'' + ", age=" + age + ", gender=" + gender + ", grade=" + grade + ", schoolName='" + schoolName + '\'' + '}';
     }
 }
+
+//41:39
