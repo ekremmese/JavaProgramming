@@ -9,6 +9,9 @@ public class Student {
     private char gender, grade;
     private String schoolName;
 
+    public static boolean isStudent = true;
+    public static boolean isHuman = true;
+
     public String getName() {
         return name;
     }
@@ -69,6 +72,10 @@ public class Student {
 
     public String toString() {
         return "Student{" + "name='" + name + '\'' + ", age=" + age + ", gender=" + gender + ", grade=" + grade + ", schoolName='" + schoolName + '\'' + '}';
+    }
+
+    public void study(){
+        System.out.println(name + " is studying.");
     }
 }
 
