@@ -11,6 +11,7 @@ public class CarObject {
 
         car1.setInformation("Mercedes", 2006, "Vito", "Black");
 
+
         System.out.println(car1);
 
         car1.start();

@@ -16,6 +16,7 @@ public class EmployeeObjects {
         employee3.name = "Ferhat";
         employee3.salary = 130000;
 
+
         System.out.println(employee1.name + " : " + employee1.salary);
         System.out.println(employee2.name + " : " + employee2.salary);
         System.out.println(employee3.name + " : " + employee3.salary);

@@ -51,7 +51,7 @@ public class GarbageCollection {
 
         System.out.println("--------------------------");
 
-        String language = "Python"; // because of line 51 this object Python become eligible for Garbage collector
+        String language = "Python"; // because of line 55 this object Python become eligible for Garbage collector
         language = "Java";
         System.out.println(language);
 
