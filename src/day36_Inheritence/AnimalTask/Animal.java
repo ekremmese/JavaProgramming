@@ -42,5 +42,6 @@ public class Animal {
                 ", color='" + color + '\'' +
                 '}';
     }
+
 }
 
