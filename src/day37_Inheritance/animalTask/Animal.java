@@ -1,13 +1,13 @@
-package day36_Inheritence.AnimalTask;
+package day37_Inheritance.animalTask;
 
-public class Animal{
+public class Animal {
 
     public String name, breed;
     public char gender;
     public int age;
     public String size, color;
 
-    public void setInfo(String name, String breed, char gender, int age, String size, String color) {
+    public Animal(String name, String breed, char gender, int age, String size, String color) {
         this.name = name;
         this.breed = breed;
         this.gender = gender;
@@ -43,8 +43,4 @@ public class Animal{
                 '}';
     }
 
-
-
-
 }
-
