@@ -19,7 +19,7 @@ public class Phone {
     public String toString() {
         return "Phone{" +
                 "brand='" + brand + '\'' +
-                ", mode='" + model + '\'' +
+                ", model='" + model + '\'' +
                 ", size='" + size + '\'' +
                 ", price= $" + price +
                 ", color='" + color + '\'' +
