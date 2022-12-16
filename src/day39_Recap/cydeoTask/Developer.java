@@ -15,7 +15,7 @@ public class Developer extends Employee {
         System.out.println(getName() + " " + getJobTitle() + " is fixing bugs");
     }
 
-    public Developer(String name, int age, char gender, int employeeID, String jobTitle, double salary) {
+    public Developer(String name, int age, char gender, String jobTitle, int employeeID, double salary) {
         super(name, age, gender, employeeID, jobTitle, salary);
     }
 
