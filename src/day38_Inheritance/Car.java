@@ -25,6 +25,10 @@ public class Car {
         System.out.println(brand + " " + model + " " + " is driving");
     }
 
+//    public void fly(){
+//
+//    } if we declare fly method in the parent class, all the sub classes will have this method but not all the cars can fly
+
     public String toString() {
         return "Car{" +
                 "brand='" + brand + '\'' +
