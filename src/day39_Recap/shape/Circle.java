@@ -16,11 +16,21 @@ public class Circle extends Shape{
 		perimeter(): 2 * radius * pi
 		toString(): r, pi, area, perimeter
      */
-    private double radius;
-    private static double pi = 3.14;
+    protected double radius;
+    public static double pi = 3.14;
+
+    private boolean shape = true;
 
     public double getRadius() {
         return radius;
+    }
+
+    public boolean isShape() {
+        return shape;
+    }
+
+    public void setShape(boolean shape) {
+        this.shape = shape;
     }
 
     public void setRadius(double radius) {
@@ -29,6 +39,7 @@ public class Circle extends Shape{
             System.exit(1);
         }
         this.radius = radius;
+        //return radius;
     }
 
     public Circle(double radius) {

@@ -24,7 +24,7 @@ public class ShapeObjects {
 
         circle.setRadius(15.5);
 
-        System.out.println(circle.getRadius());
+        System.out.println(circle.getRadius()); // < -----
 
         System.out.println(circle);
 
