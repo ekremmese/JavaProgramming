@@ -65,5 +65,16 @@ public class Animal {
         this.age = age;
     }
 
+    //-----------------------------------------------------------------------
+
+    public void eat(){
+        System.out.println(name + " is eating");
+    }
+
+    public final void drink(){
+        System.out.println(name + " is drinking water");
+    }
+
+
 
 }
