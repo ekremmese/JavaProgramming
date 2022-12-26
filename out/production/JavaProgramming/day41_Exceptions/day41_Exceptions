@@ -59,7 +59,7 @@ Exception handlings:
 
 			finally block: always gets executed regardless of the exception is being handled or not handled
 
-							to stop the execution of the finally block: Syste.exit(0)
+							to stop the execution of the finally block: System.exit(0)
 
 
 Interview Question:

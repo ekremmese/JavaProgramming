@@ -18,7 +18,7 @@ public class ConstructorCalls {
     }
 
     public static void main(String[] args) {
-        ConstructorCalls obj1 = new ConstructorCalls();
+        //ConstructorCalls obj1 = new ConstructorCalls();
 
         System.out.println("-----------------------------------");
 
