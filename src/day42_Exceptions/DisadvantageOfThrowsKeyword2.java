@@ -5,6 +5,15 @@ import java.io.FileNotFoundException;
 
 public class DisadvantageOfThrowsKeyword2 {
 
+    public static void main(String[] args) {
+        try {
+            method1();
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        }
+
+    }
+
     public static void method1() throws FileNotFoundException {
 
         new FileInputStream("");
@@ -15,12 +24,12 @@ public class DisadvantageOfThrowsKeyword2 {
         method1();
     }
 
-    public static void method3() throws FileNotFoundException, InterruptedException {
+    public static void method3() throws  FileNotFoundException, InterruptedException{
         method2();
         Thread.sleep(1000);
     }
 
-    public static void method4() throws  Exception{
+    public static void method4() throws  FileNotFoundException, InterruptedException{
         method3();
     }
 
