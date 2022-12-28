@@ -7,7 +7,7 @@ public class Tesla extends Car {
     }
 
     public void start() {
-        System.out.println("Press the button to start: " + getBrand());
+        System.out.println("Say \"Start\" to start: " + getBrand());
     }
 
 }

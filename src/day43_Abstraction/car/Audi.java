@@ -1,6 +1,6 @@
 package day43_Abstraction.car;
 
-public class Audi extends  Car{
+public final class Audi extends  Car{
 
     public Audi(String model, String color, int year, double price) {
         super("Audi", model, color, year, price);
@@ -11,8 +11,13 @@ public class Audi extends  Car{
         System.out.println("Press the button to start: " + getModel());
     }
 
-    public static void main(String[] args) {
+    public void autoPark(){
+        System.out.println(getBrand() + " " + getModel() + " has auto park feature");
+    }
 
+    public static void main(String[] args) {
+        Audi audi = new Audi("A4","Brown", 1998, 200000);
+        System.out.println(audi);
     }
 
 }
