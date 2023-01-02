@@ -18,7 +18,7 @@ static {
     public abstract void eat();
 
     public final void drink(){
-        System.out.println();
+        System.out.println(name + " is drinking");
     }
 
     public Animal(String name, String breed, char gender, int age, String size, String color) {
@@ -77,7 +77,7 @@ static {
 
     @Override
     public String toString() {
-        return "Animal{" +
+        return getClass().getSimpleName() + "{" +
                 "name='" + name + '\'' +
                 ", breed='" + breed + '\'' +
                 ", gender=" + gender +
