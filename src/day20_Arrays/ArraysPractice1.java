@@ -14,6 +14,7 @@ public class ArraysPractice1 {
 
         System.out.println(Arrays.toString(numbers));
 
+
         System.out.println("===================================================");
 
         //Create a variable that can contain 5 scores - WE KNOW THE NUMBER OF ELEMENTS BUT WE DON T KNOW THE VALUES OF THEM
